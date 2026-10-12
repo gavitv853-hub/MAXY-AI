@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Reactor Segments -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.8"
+        android:pathData="M54,26 A28,28 0 0,1 82,54" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.8"
+        android:pathData="M82,54 A28,28 0 0,1 54,82" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.8"
+        android:pathData="M54,82 A28,28 0 0,1 26,54" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.8"
+        android:pathData="M26,54 A28,28 0 0,1 54,26" />
+
+    <!-- Reactor Teeth / Turbine Fins -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M51,21 L57,21 L55,27 L53,27 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M51,81 L57,81 L55,87 L53,87 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M21,51 L21,57 L27,55 L27,53 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M81,51 L81,57 L87,55 L87,53 Z" />
+
+    <!-- 45-degree reactor nodes -->
+    <path
+        android:fillColor="#00FF9D"
+        android:pathData="M34,34 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+    <path
+        android:fillColor="#00FF9D"
+        android:pathData="M74,34 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+    <path
+        android:fillColor="#00FF9D"
+        android:pathData="M34,74 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+    <path
+        android:fillColor="#00FF9D"
+        android:pathData="M74,74 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Inner Core Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7C4DFF"
+        android:strokeWidth="2.2"
+        android:pathData="M54,54 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0" />
+
+    <!-- Triangular Arc Vector (M for MAXY) inside the reactor -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M44,61 L44,47 L49,54 L54,47 L59,54 L64,47 L64,61 L60,61 L60,53 L56,58 L52,58 L48,53 L48,61 Z" />
+
+    <!-- Glowing Core Center Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+</vector>
